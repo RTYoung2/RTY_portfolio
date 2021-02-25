@@ -1,0 +1,179 @@
+*{
+    font-family:Verdana
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+
+
+.BGimage {
+    display: flex;
+    background-image: url(./Images/pacificSelfie.jpg);
+    background-position: center;
+    background-size: cover;
+    /* height: 1080px;
+    width: 1920px; */
+    width:100vw;
+    height:100vh;
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    margin:0;
+}
+
+ul  {
+    color:white;
+    display:flex;
+    height:30px;
+    justify-content: space-evenly;
+    list-style: none;
+    width:100%;
+}
+
+.navigation{
+   position:absolute;
+    background-color: #2e2b2b;
+    margin:0px;
+    width: 20%;
+    top:0;
+    left:0;
+}
+
+.aboutMe_container{
+    border:#1a1919dc solid 1px;
+    box-shadow: 5px 3px 5px 2px;
+    height: 35vh;
+    margin:100px 0px 0px 350px;
+    position:relative;
+    width:60vh;
+}
+
+.aboutMe_title{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 7px;
+    text-shadow: 2px 2px #568ee9;
+}
+
+.aboutMe_description{
+    display: flex;
+    margin:0px 10px 0px 10px;
+    line-height: 22px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+.resume_link{
+    color:white;
+    font-size: 20px;
+   justify-content: center;
+   background-color: black;
+   border:3px solid #568ee9;
+   border-radius: 30px;
+   text-decoration: none;
+   padding:5px 10px;
+   font-family:Verdana;
+   transition-duration: 300ms;
+}
+
+.resume_link:hover{
+    background-color: white;
+    color:#568ee9;
+}
+
+.footer {
+    /* z-index: 1; */
+    width: 100%;
+    justify-content: center;
+    background-color: #2e2b2b;
+    display: flex;
+    height: 5vh;
+    flex-flow: row;
+    padding: 10px;
+    position:relative;
+    /* bottom:0; */
+  }
+  
+  .social_media {
+    color: white;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+  }
+  
+  .social_media:hover {
+    color: #568ee9;
+  }
+  
+  .social_media > img {
+    margin-left: 20px;
+    height: 50px;
+  }
+  
+  .social_media > a {
+    color: white;
+    padding: 0px 10px 0px 10px;
+    text-decoration: none;
+  }
+  
+  .social_media:hover > a {
+    color: #11bfebe3;
+  }
+
+  /* Projects CSS */
+  .hero{
+      height:300px;
+      position:relative;
+      background-color: pink;
+      /* background-image:url(); --> make this a BG image */
+  }
+
+  .project_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap:10px;
+    margin:30px 10px 10px 10px;
+  }
+
+  .project{
+      background-color: teal;
+      border: black 1px solid;
+      box-shadow: #568ee9 2px 2px 2px 2px;
+      padding-bottom:20px
+
+  }
+
+  .project_img{
+    position:relative;
+    height:300px;
+    background-color:yellow;
+    /* add background image */
+    background-image: url(./Images/pacificSelfie.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+.project_title{
+    position:relative;
+ font-size: 40px;
+ text-align: center;
+ text-transform: uppercase;
+
+}
+
+  .project_description{
+    margin:20px;
+    
+  }
+
+  
