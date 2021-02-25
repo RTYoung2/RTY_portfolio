@@ -131,10 +131,13 @@ ul  {
 
   /* Projects CSS */
   .hero{
-      height:300px;
+      height:500px;
+      border-bottom: 3px solid black;
       position:relative;
-      background-color: pink;
-      /* background-image:url(); --> make this a BG image */
+     
+      background-image:url(./Images/7hero.jpg); 
+      background-position: center;
+    background-size: cover;
   }
 
   .project_container{
@@ -146,19 +149,108 @@ ul  {
   }
 
   .project{
-      background-color: teal;
+      background-image: linear-gradient(to bottom right, white, #11bfebe3);
       border: black 1px solid;
-      box-shadow: #568ee9 2px 2px 2px 2px;
+      box-shadow: #2e2b2b 2px 2px 2px 2px;
       padding-bottom:20px
 
   }
 
-  .project_img{
+  .project_img1{
     position:relative;
     height:300px;
-    background-color:yellow;
+  
     /* add background image */
-    background-image: url(./Images/pacificSelfie.jpg);
+    background-image: url(./Images/ECOMM1.png);
+    background-position: top center;
+    background-size: cover;
+  }
+
+  .project_img2{
+    position:relative;
+    height:300px;
+    
+    /* add background image */
+    background-image: url(./Images/ECOMM2.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .project_img3{
+    position:relative;
+    height:300px;
+   
+    /* add background image */
+    background-image: url(./Images/ReservationAPP.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .project_img4{
+    position:relative;
+    height:300px;
+    
+    /* add background image */
+    background-image: url(./Images/GuessingGame.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .project_img5{
+    position:relative;
+    height:300px;
+    
+    /* add background image */
+    background-image: url(./Images/SF\ GATEWAY.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .project_img6{
+    position:relative;
+    height:300px;
+    
+    /* add background image */
+    background-image: url(./Images/HeartForHunger.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .project_img7{
+    position:relative;
+    height:300px;
+    
+    /* add background image */
+    background-image: url(./Images/MusicAnimation.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .project_img8{
+    position:relative;
+    height:300px;
+  
+    /* add background image */
+    background-image: url(./Images/TicTacToe.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .project_img9{
+    position:relative;
+    height:300px;
+    
+    /* add background image */
+    background-image: url(./Images/PokemonNode.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .project_img10{
+    position:relative;
+    height:300px;
+   
+    /* add background image */
+    background-image: url(./Images/UnderConstruction.png);
     background-position: center;
     background-size: cover;
   }
@@ -176,4 +268,25 @@ ul  {
     
   }
 
+
+  /* Contact Page */
+
+  .Contact{
+    display:grid;
+    justify-content:center;
+    align-items:center;
+    min-height:90vh;
+    
+    }
+    
+    button.submit{
+        width:50%;
+    }
+    
+    .contact{
+        font-size: 2px;
+    }
   
+    .comments{
+        height: 200px;;
+    }
